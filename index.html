@@ -1,10 +1,58 @@
 <!DOCTYPE html>
+<html lang="en">
+
 <head>
-    <title>Ralf Diez Duhaylungsod</title>
-    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ralf LCT Portfolio</title>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            max-width: 800px; /* or any value you deem fit */
+            margin: 0 auto;
+        }
+
+        header {
+            background-color: #f4f4f4;
+            padding: 10px 0;
+            width: 100%;
+            text-align: center;
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+        }
+
+        section {
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        img.profile-pic {
+            width: 200px;
+            height: auto;
+            margin: 20px auto;
+            display: block;
+        }
+    </style>
 </head>
 
 <body>
+    <div class="container">
         <header>
             <h1>Ralf Diez Duhaylungsod</h1>
             <nav>
@@ -14,30 +62,46 @@
             </nav>
         </header>
 
-            	<img src="ralf_formal.jpg" alt="ralfdiez_image" height="200" width="200">
+        <section id="about">
+            <h2>About Me</h2>
+            <img src="ralf_formal.jpg" alt="Ralf Profile Picture" class="profile-pic">
             <p>
-                Hey, It's me Ralf D! I am a Frontend Web Developer, currently learning in LearnComputerToday.
+                Hello! I'm Ralf, an aspiring full-stack web developer with a dream of becoming a successful software engineer. 
+                I've enrolled in LCT to gain comprehensive knowledge and a deep understanding of each tool necessary for success in this field. 
+                I'm always open to learning new things to expand my expertise and knowledge. Thank you!
             </p>
+        </section>
 
-            <h2>Here are my sample projects</h2>
-            	<ul>
-                	<li><a href="https://parpar0000.github.io/ralfLctPortfolio/">Project 1</a>: My LCT Portfolio Project.</li>
-                	<li><a href="https://github.com/parpar0000/ralfLctPortfolio">Project 2</a>: My LCT Portfolio Project github repo.</li>
-            	</ul>
+        <section id="projects">
+            <h2>Projects</h2>
+            <ul>
+                <li><a href="">Project 1</a>: My LCT Portfolio Project Link</li>
+                <li><a href="">Project 2</a>: Source Code from Learn Computer Today Repo.</li>
+            </ul>
+        </section>
 
-            <h3>My Skills</h3>
-            	<p>
-               		HTML, CSS, JAVASCRIPT, PHP
-            	</p>
-
-            <h4>Contact</h4>
-            	<p>Contact Number: 09672545042</p>
-            	<p>Email Address: ralfdiez23@gmail.com</p>
-
+        <section id="contact">
+            <h2>Contact</h2>
+            <table>
+               <tr>
+                <td>Email:</td>
+                <td>ralfdiez23@gmail.com</td>
+               </tr>
+               <tr>
+                <td>Linkedin:</td>
+                <td><a href="">Ralf</a></td>
+               </tr>
+               <tr>
+                <td>GitHub:</td>
+                <td><a href="">Parpar0000</a></td>
+               </tr>
+            </table>
+        </section>
 
         <footer>
             <p>© 2023 by Ralf Diez Duhaylungsod</p>
         </footer>
+    </div>
 </body>
 
 </html>
